@@ -1,4 +1,20 @@
+* {
+    margin-top: 0;
+}
+
+* + * {
+    margin-top: 1rem;
+}
+
 body {
     background: #ff9900;
     font-family: Helvetica, sans-serif;
+}
+
+.mottaker > * {
+    display: none;
+}
+
+:target {
+    display: block;
 }
