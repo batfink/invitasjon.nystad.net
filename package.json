@@ -1,0 +1,15 @@
+{
+  "name": "invitasjon.nystad.net",
+  "version": "1.0.0",
+  "main": "docs/index.html",
+  "repository": "git@github.com:batfink/invitasjon.nystad.net",
+  "author": "Victor Nystad <vnystad@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.24.6"
+  },
+  "scripts": {
+      "bs": "browser-sync",
+      "start": "yarn bs start --server docs/ --watch --files docs/ --no-ui --no-open"
+  }
+}
